@@ -27,7 +27,7 @@ def speak_out(predicted_class):
     tts.save("prediction.mp3")
     return Audio("prediction.mp3", autoplay=True)
 
-UPLOAD_FOLDER = "C:/Users/User/Downloads/flask/"
+UPLOAD_FOLDER = "FOLDER"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load trained model
