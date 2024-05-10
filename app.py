@@ -31,7 +31,7 @@ UPLOAD_FOLDER = "C:/Users/User/Downloads/flask/"
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load trained model
-MODEL_PATH = "C:/Users/User/Downloads/PROJECT4.h5"
+MODEL_PATH = "PROJECT5.h5"
 model = load_model(MODEL_PATH, compile=False)
 model.make_predict_function()
 
