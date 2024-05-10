@@ -1,0 +1,8 @@
+tensorflow
+beautifulsoup4
+matplotlib
+numpy
+opencv-python
+pandas
+gunicorn
+Flask
